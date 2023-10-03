@@ -1,0 +1,137 @@
+.menu {
+  display: flex;
+}
+.menu_2 {
+  display: inline-flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.menu_3 {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  /*  Making ul.menu a Flex container  */
+  display: flex;
+}
+
+.menu_3 .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu_3 .link:hover {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.menu_4 {
+  display: flex;
+  gap: 8px;
+
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.menu_4.reversed {
+  /*  We rotate the main axis from right to left  */
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+
+.menu_4 .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu_4 .link:hover {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+code {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.menu_5 {
+  display: flex;
+  gap: 8px;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.menu_5.flex-end {
+  justify-content: flex-end;
+}
+
+.menu_5.center {
+  justify-content: center;
+}
+
+.menu_5.space-between {
+  justify-content: space-between;
+}
+
+.menu_5 .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu_5 .link:hover {
+  text-decoration: underline;
+}

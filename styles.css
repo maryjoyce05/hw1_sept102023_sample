@@ -1,0 +1,90 @@
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+}
+.post-text-indent {
+  text-indent: 100px;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.post-title-letter {
+  letter-spacing: 10px;
+}
+
+.post-text-letter {
+  letter-spacing: 5px;
+}
+.post-title-word {
+  word-spacing: inherit;
+}
+
+.post-text-word {
+  word-spacing: 5px;
+}
+
+.title-shadow {
+  color: tomato;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title-layershadow {
+  color: tomato;
+  text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+}
+
+.text-whitespace {
+  white-space: normal;
+}
+
+.text-fontsize {
+  font-size: 20px;
+}
+
+.title-fontweight {
+  font-weight: 400;
+}
+
+.text-fontweight {
+  font-weight: 700;
+}
+
+.title-fontstyle,
+.text-fontstyle {
+  font-style: italic;
+}
+
+.text-font-family {
+  font-family: "Helvetica Neue", "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
+}
