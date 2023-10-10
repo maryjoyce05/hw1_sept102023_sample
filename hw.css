@@ -1,0 +1,9 @@
+.team-link-list {
+  display: flex; /* Make the list items a flex container */
+  border: 1px solid #ccc; /* Add a border to the entire list item */
+  padding: 10px; /* Add padding to create space between border and content */
+}
+
+.info-container {
+  margin-left: 10px; /* Add margin to create space between the image and text */
+}
