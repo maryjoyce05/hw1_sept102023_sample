@@ -1,9 +1,132 @@
-.team-link-list {
+.link {
   display: flex; /* Make the list items a flex container */
-  border: 1px solid #ccc; /* Add a border to the entire list item */
+  border: 2px solid black; /* Add a border to the entire list item */
   padding: 10px; /* Add padding to create space between border and content */
+  background-color: orange;
+  max-width: 1158px;
+  margin: 10px;
+  justify-content: space-between;
 }
 
 .info-container {
   margin-left: 10px; /* Add margin to create space between the image and text */
+}
+
+.team-link-list.uno {
+  background-color: green;
+}
+
+.team-link-list.dos {
+  background-color: pink;
+}
+
+.team-link-list.four {
+  background-color: yellow;
+}
+
+.team-link-list.tres {
+  background-color: blueviolet;
+}
+
+/* end of testing of display: block, flex, inline-flex */
+
+/* SECTION 3 HERE */
+
+/* 1st remove bullets */
+
+.upper-list-one,
+.upper-list-two {
+  list-style: none; /* remove bullets*/
+}
+
+.three {
+  background-color: pink;
+  border: 4px dashed blueviolet;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  width: 1158px;
+}
+
+/* li border */
+
+.upper-right {
+  border: 2px solid orangered;
+}
+
+.upper-left {
+  border: 2px solid green;
+}
+
+.upperleft,
+.upperright {
+  border: 2px dotted black;
+}
+
+/* using display */
+
+.three {
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1158px;
+  height: auto;
+}
+
+.upper-list-one {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  margin-left: 50px;
+}
+
+.upper-list-two {
+  display: flex;
+  padding: 0 20px;
+  margin: 0 30px;
+  width: 350px;
+  justify-content: right;
+}
+
+.two-div {
+  display: flex;
+}
+
+.upper-left,
+.upper-right {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+/* end of header style  */
+
+/* new style with image and text */
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  border: 3px dashed purple;
+  margin: 10px 50px;
+  max-width: 1500px;
+  padding: 10px;
+  align-items: center;
+  height: 400px;
+}
+
+/* next sample */
+
+img {
+  display: flex;
+}
+
+.images-sample-2 {
+  display: flex;
+  width: 500px;
+}
+
+.images-sample-2 {
+  align-items: stretch;
 }
